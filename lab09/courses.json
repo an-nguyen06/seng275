@@ -1,0 +1,139 @@
+{
+  "students": [
+    {
+      "id": "2",
+      "name": "Nour",
+      "email": "venkat.kumar@student.edu",
+      "enrolledCourses": [
+        102,
+        103
+      ]
+    },
+    {
+      "id": "Co_SX6f5K80",
+      "name": "Nour",
+      "email": "nour@student.edu",
+      "enrolledCourses": [
+        102,
+        103
+      ]
+    },
+    {
+      "title": "Databases",
+      "instructor": "Prof. Dana",
+      "prerequisite": 101,
+      "id": "cob38twOwpo"
+    },
+    {
+      "id": "tgccdeXJIRg",
+      "name": "Nour",
+      "email": "nour@student.edu",
+      "enrolledCourses": [
+        102,
+        103
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "102",
+      "title": "Object-Oriented Design",
+      "description": "Learn OOP using Java",
+      "prerequisite": 101,
+      "instructor": "Dr. Alice",
+      "name": "Nour",
+      "email": "nour@student.edu",
+      "enrolledCourses": [
+        102,
+        103
+      ]
+    },
+    {
+      "id": "103",
+      "title": "Advanced Web Development",
+      "description": "HTML, CSS, JS and frontend basics",
+      "prerequisite": 101,
+      "instructor": "Dr. Carol",
+      "email": "venkat.kumar@student.edu"
+    },
+    {
+      "id": "_lx2ix3ogho",
+      "title": "Databases",
+      "instructor": "Prof. Dana",
+      "prerequisite": 101
+    },
+    {
+      "title": "Advanced Web Development",
+      "id": "G52N_zEzATY"
+    },
+    {
+      "title": "Databases",
+      "instructor": "Prof. Dana",
+      "prerequisite": 101,
+      "id": "RlBdcNCOjDA"
+    },
+    {
+      "id": "5eWg5lfqXVA"
+    },
+    {
+      "id": "sswxfw2NTwY"
+    },
+    {
+      "id": "F5AHkNMnuJY"
+    },
+    {
+      "id": "Cg-MFkC8qx8"
+    },
+    {
+      "id": "keoHpcq0Rkw"
+    },
+    {
+      "title": "Databases",
+      "instructor": "Prof. Dana",
+      "prerequisite": 101,
+      "id": "gtvByT2geqc"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "1",
+      "name": "Dr. Alice",
+      "email": "alice@university.edu",
+      "courses": [
+        101,
+        102
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Prof. Bob",
+      "email": "bob@university.edu",
+      "courses": [
+        102
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dr. Carol",
+      "email": "carol@university.edu",
+      "courses": [
+        103
+      ]
+    },
+    {
+      "id": "XJ9p1SiUZoE",
+      "name": "Prof. Dana",
+      "email": "dana@university.edu",
+      "courses": [
+        104
+      ]
+    },
+    {
+      "id": "WbI8UTo72QI",
+      "name": "Prof. A",
+      "email": "a@university.edu",
+      "courses": []
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

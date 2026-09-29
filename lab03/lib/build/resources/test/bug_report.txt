@@ -1,0 +1,14 @@
+Title: Bug in messageIsValid
+Submitter: An Nguyen
+email address: vuthuanann@uvic.ca
+
+Summary of bug: messageIsValid allows messages longer than 6 characters without a hyphen
+
+Expected behaviour: returns false
+
+Actual behaviour: returns true
+
+Steps to Reproduce: Specification.messageIsValid("123456", false) and observe the return value
+
+Severity: allows invalid personalized license plate messages that violate the specification
+

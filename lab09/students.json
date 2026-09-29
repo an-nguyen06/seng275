@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Yal",
+      "grade": 12,
+      "school": "abc school",
+      "courses": [
+        "java",
+        "selenium"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Venkat",
+      "grade": 12,
+      "school": "abc school",
+      "courses": [
+        "python",
+        "selenium"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "xyz",
+      "grade": 12,
+      "school": "abc school",
+      "courses": [
+        "C",
+        "java"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "abc",
+      "grade": 12,
+      "school": "abc school",
+      "courses": [
+        "C",
+        "java"
+      ]
+    }
+  ]
+}

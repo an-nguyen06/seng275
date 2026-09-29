@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab06.TodoApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-03-05T17:57:05" hostname="AN" time="0.457">
+  <properties/>
+  <testcase name="completeAllWithThreeTodos()" classname="lab06.TodoApplicationTest" time="0.457"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

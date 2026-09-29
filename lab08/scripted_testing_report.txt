@@ -1,0 +1,32 @@
+Pair/scripted testing report:
+Partner name (if any): None
+
+Bug number: 1
+Software version: 1.0
+Initial state of the system: System is on, card inserted and is logged in.
+Steps to reproduce: Insert the card, enter the card number, enter wrong pin twice. Enter the correct pin the third time.
+Expected outcome: System should accept the pin and ask the type of transaction to be done.
+Actual outcome: System requires entering the pin again.
+Fixed in version 1.1? No
+
+Bug number: 2
+Software version: 1.0
+Initial state of the system: System is on, card inserted and is logged in.
+Steps to reproduce:
+    1. Select transfer
+    2. Select "from" and "to" accounts
+    3. Enter an amount
+Expected outcome: Message should specify the "from" and "to" accounts in the log
+Actual outcome: Message does not correctly specify the "from" and "to" accounts in the log
+Fixed in version 1.1? The account balances are correctly specified but the "to" and "from" accounts are not specified correctly
+
+Bug number: 3
+Software version: 1.0
+Initial state of the system: System is on, card inserted and is logged in.
+Steps to reproduce:
+    1. Select withdraw
+    2. Select account
+    3. Select the amount to be withdrawn
+Expected outcome: User must be able to enter the amount of money to be withdrawn
+Actual outcome: System shows a $20 withdrawal
+Fixed in version 1.1? Yes

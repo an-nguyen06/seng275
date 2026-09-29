@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab03.GameBoardTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-02-06T00:55:10" hostname="AN" time="0.042">
+  <properties/>
+  <testcase name="isInside_XBelowLowerBound_ThrowsException()" classname="lab03.GameBoardTest" time="0.021"/>
+  <testcase name="isInside_ValidPoint_1_1()" classname="lab03.GameBoardTest" time="0.001"/>
+  <testcase name="isInside_ValidPoint_3_4()" classname="lab03.GameBoardTest" time="0.0"/>
+  <testcase name="isInside_ValidPoint_5_5()" classname="lab03.GameBoardTest" time="0.002"/>
+  <testcase name="isInside_YAboveUpperBound_ThrowsException()" classname="lab03.GameBoardTest" time="0.002"/>
+  <testcase name="isInside_LowerLeftCorner_ReturnsTrue()" classname="lab03.GameBoardTest" time="0.001"/>
+  <testcase name="isInside_YBelowLowerBound_ThrowsException()" classname="lab03.GameBoardTest" time="0.001"/>
+  <testcase name="isInside_XAboveUpperBound_ThrowsException()" classname="lab03.GameBoardTest" time="0.002"/>
+  <testcase name="isInside_UpperRightCorner_ReturnsTrue()" classname="lab03.GameBoardTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,35 @@
+Which standards tool did you use?
+
+Ans: Google Lighthouse tool from Chrome
+
+
+
+Name any one test that passed, and describe why that test is important, in your own words.
+What would be the problem if the test had failed?
+
+One test that passed was checking whether ARIA role values are valid.
+
+This test is important because ARIA roles help users with special needs like screen readers
+know the structure and purpose of elements on a webpage. When roles are valid, users with
+disabilities can navigate and interact with the page more effectively.
+
+If this test had failed, assistive technologies might misinterpret the content or not recognize
+certain elements at all => make the website difficult or impossible for users who
+rely on these tools, reducing accessibility and violating web standards.
+
+
+Name any one test that failed (yellow or red) and explain why the failed test suggest
+there's a problem with the website.  Who is it a problem for?  What kinds of obstacles
+could this issue present?
+
+Ans: Image elements do not have [alt] attributes
+Since alt text is used to describe images for users who cannot see them, screen readers rely on
+alt attributes to explain what an image represents. Without this information, important content
+may be lost.
+
+This is mainly for users with visual impairments who depend on assistive technologies.
+It can also affect users with slow internet connections if images fail to load.
+
+=> Users may not understand the purpose of images, miss important information, or have
+difficulty navigating the website. This creates accessibility barriers and reduces the overall
+usability of the site.

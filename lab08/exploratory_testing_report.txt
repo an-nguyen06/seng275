@@ -1,0 +1,51 @@
+Exploratory testing report:
+
+Bug number: 1
+Software version: 1.0
+Initial state of the system: System is on, card inserted and is logged in.
+Steps to reproduce:
+    1. Select deposit
+    2. Select Savings account
+    3. Enter a very large amount ($10000000)
+    4. Press Enter
+Expected outcome: System should reject transaction and display an error message that a maximum could be deposited
+Actual outcome: System crashes
+Fixed in version 1.1? No
+
+Bug number: 2
+Software version: 1.0
+Initial state of the system: System is on, card inserted and is logged in.
+Steps to reproduce:
+    1. Select Deposit
+    2. Select Savings account
+    3. Enter deposit amount $500
+    4. Press Enter
+    5. Click envelope button to insert envelop
+    6. Examine printed receipt
+Expected outcome: After depositing $500 into Savings (initial balance $1,000), receipt should show Total Bal = $1,500.00 and Available = $1,500.00
+Actual outcome: Total balance is off by $10 (shows $1,490 instead of $1,500), and available balance is not updated at all (still shows $1,000)
+Fixed in version 1.1? No
+
+Bug number: 3
+Software version: 1.0
+Initial state of the system: System is on, card inserted and is logged in.
+Steps to reproduce:
+    1. turn ATM on, log in with card and enter PIN
+    2. select Withdrawal
+    3. select Savings
+    4. out of 5 options on the menu, press 6 on the keypad
+Expected outcome: System should reject the input and display an appropriate error message (e.g. "Invalid selection, please choose 1–5"), then re-display the amount menu
+Actual outcome: System accepts the invalid input without any error messages, showing a $20 withdrawal
+Fixed in version 1.1? Yes
+
+Bug number 4:
+Software version: 1.1
+Initial state of the system: System is on, card inserted and is logged in.
+Steps to reproduce:
+    1. Insert a card
+    2. Perform any transaction
+    3. Take out the card to end transaction and end session
+    4. Turn it on again, and enter another card.
+Expected outcome: The transaction details must reset after turning the ATM off.
+Actual outcome: The screen does not reset.
+Fixed in version 1.1? No
